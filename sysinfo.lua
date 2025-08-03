@@ -22,4 +22,4 @@ local memPercentage = tostring(round((freeMem/totalMem)*100)).."%"
 print("System uptime: "..uptime)
 print("Power: "..tostring(energy).."U/"..tostring(maxEnergy).."U ("..energyPercentage..")")
 print("Memory usage: "..freeMem.."KB/"..totalMem.."KB ("..memPercentage..")")
-print("Wireless Netword Card Address: "..tostring(modem.address))
+print("Netword Card Address: "..tostring(modem.address))
